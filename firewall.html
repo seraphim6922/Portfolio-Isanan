@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title> FIREWALL </title>
+<link rel="stylesheet" type="text/css" href="style2.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+	<header>
+		<a href="index.html">
+		<div class="main">
+			<div class= "logo">
+				<img src="img/logo.png" alt="Logo" title="Logo">
+			</div>
+		</a>
+	
+
+<nav>
+	<ul>
+		
+		<li><a href="index.html">Home</a></li>
+		<li><a href="profile.html">Student Profile</a></li>
+		<li class="active"><a href="firewall.html">Firewall</a></li>
+		<li><a href="ransomware.html">Ransomware</a></li>
+		<li><a href="sophos.html">Sophos</a></li>
+	</ul>
+	
+</nav>
+
+
+<div class="title">
+	<h1>FIREWALL</h1>
+
+	<p><strong>What Is Firewall Configuration?</strong><br><br>
+
+	A firewall plays a vital role in network security and needs to be properly configured to keep organizations protected from data leakage and cyberattacks.<br><br>
+	This is possible by configuring domain names and Internet Protocol (IP) addresses to keep the firewall secure. Firewall policy configuration is based on network 
+	type, such as public or private, and can be set up with security rules that block or allow access to prevent potential attacks from hackers or malware.<br><br>
+	Proper firewall configuration is essential, as default features may not provide maximum protection against a cyberattack.<br><br>
+
+	<strong>Importance of Basic Firewall Configuration</strong><br><br>
+
+	Improper firewall configuration can result in attackers gaining unauthorized access to protected internal networks and resources. As a result, cyber 
+	criminals are constantly on the lookout for networks that have outdated software or servers and are not protected. Gartner highlighted the size and magnitude 
+	of this issue, predicting that 99% of firewall breaches would be caused by misconfigurations in 2020.<br><br>The default settings on most firewalls and protocols like 
+	the File Transfer Protocol (FTP) do not provide the necessary level of protection to keep networks secure from cyberattacks. Organizations must ensure basic 
+	firewall configuration meets the unique needs of their networks.<br><br>
+
+	<strong>How To Configure a Firewall</strong><br><br>
+
+	<strong>1. Secure the Firewall</strong><br><br>
+	Securing a firewall is the vital first step to ensure only authorized administrators have access to it. This includes actions such as:<br><br>
+	1. Update with the latest firmware<br>
+	2. Never putting firewalls into production without appropriate configurations in place<br>
+	3. Deleting, disabling, or renaming default accounts and changing default passwords <br>
+	4. Use unique, secure passwords<br>
+	5. Never using shared user accounts. If a firewall will be managed by multiple administrators, additional admin accounts must have limited privileges based on individual responsibilities.<br>
+	6. Disabling the Simple Network Management Protocol (SNMP), which collects and organizes information about devices on IP networks, or configuring it for secure usage<br>
+	7. Restricting outgoing and incoming network traffic for specific applications or the Transmission Control Protocol (TCP)<br><br>
+
+	<strong>2. Establish Firewall Zones and an IP Address Structure</strong><br><br>
+
+	It is important to identify network assets and resources that must be protected. This includes creating a structure that groups corporate assets into zones based on 
+	similar functions and the level of risk.<br><br> A good example of this is servers such as email servers, virtual private network (VPN) servers, and web servers—placed in 
+	a dedicated zone that limits inbound internet traffic, often referred to as a demilitarized zone (DMZ). A general rule is that the more zones created, the more secure the network is.<br><br>
+	However, having more zones also demands more time to manage them. With a network zone structure established, it is also important to establish a corresponding IP address structure that assigns 
+	zones to firewall interfaces and sub interfaces.<br><br>
+
+	<strong>3. Configure Access Control Lists (ACLs)</strong><br><br>
+
+	Access control lists (ACLs) enable organizations to determine which traffic is allowed to flow in and out of each zone. ACLs act as firewall rules, which organizations 
+	can apply to each firewall interface and subinterface.<br><br>
+	ACLs must be made specific to the exact source and destination port numbers and IP addresses. Each ACL should have a “deny all” rule created at the end of it, which enables
+ 	organizations to filter out unapproved traffic. Each interface and subinterface also needs an inbound and outbound ACL to ensure only approved traffic can reach each zone. It is also 
+	advisable to disable firewall administration interfaces from public access to protect the configuration and disable unencrypted firewall management protocols.<br><br>
+
+	<strong>4. Configure Other Firewall Services and Logging</strong><br><br>
+	
+	Some firewalls can be configured to support other services, such as a Dynamic Host Configuration Protocol (DHCP) server, intrusion prevention system (IPS), and Network Time Protocol 
+	(NTP) server. It is important to also disable the extra services that will not be used.<br><br>Further, firewalls must be configured to report to a logging service to comply with and 
+	fulfill Payment Card Industry Data Security Standard (PCI DSS) requirements.<br><br>
+
+	<strong>5. Test the Firewall Configuration</strong><br><br>
+
+	With the configurations made, it is critical to test them to ensure the correct traffic is being blocked and that the firewall performs as intended. The configuration can be tested through
+	techniques like penetration testing and vulnerability scanning. Remember to back up the configuration in a secure location in case of any failures during the testing process.<br><br>
+	
+	<strong>6. Manage Firewall Continually</strong><br><br>
+
+	Firewall management and monitoring are critical to ensuring that the firewall continues to function as intended. This includes monitoring logs, performing vulnerability scans, and regularly 
+	reviewing rules. It is also important to document processes and manage the configuration continually and diligently to ensure ongoing protection of the network.</p>
+</div>
+
+
+<div class= "footer">
+	<footer>
+		Copyright &copy; ISANAN 1999-2023 
+	</footer>
+</div>
+
+</header>
+</body>
+
+</html>
+</body>

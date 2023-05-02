@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: courier;
+}
+
+header{
+	background-attachment: fixed;
+	background-image:linear-gradient(rgba(0,0,0,0.8)15%,rgba(0,0,0,0.6)), url('img/sophos.jpg');
+	height: 220vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px; 	
+}
+
+ul li{
+	display: inline-block;	
+}
+
+ul li a{
+	text-decoration: none;
+	color: lightblue;
+	padding: 15px 32px;
+	border: none;
+	transition: 0.5s ease;
+}
+
+ul li a:hover{
+	background-color: lightblue;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: lightblue;
+	color: #000;
+}
+
+.logo img{
+	float: left;
+	width: 100px;
+	height: auto;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title h1{
+	color: lightblue;
+	font-size: 30px;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.title p{
+	color: lightblue;
+	font-size: 20px;
+	position: absolute;
+	top: 115%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #a1a1a1;
+  text-align: center;
+}
